@@ -1,12 +1,12 @@
-# _ Word Play_
+# _Practice with arrays_
 
-#### _single Webpage for Epicodus, 10.22.2018_
+#### _single Webpage for Epicodus, 10.23.2018_
 
-#### By _**Sandra Castaneda and Kaveh Saleminejad**_
+#### By _**James Cho and Kaveh Saleminejad**_
 
 ## Description
 
-_Enter sentence. Page will take words with 3, or more characters and reverse the sentence_
+_Practice with Arrays, count-up-by, word-puzzle, transportation-survey, stress-test, factorial, palindrome, prime-sifting_
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ _Enter sentence. Page will take words with 3, or more characters and reverse the
 
 ## Support and contact details
 
-_Contact Sandra Castaneda - sancastans@gmail.com or Kaveh Saleminejad - lcaveh@gmail.com._
+_Contact James Cho - hwisoocho@gmail.com or Kaveh Saleminejad - lcaveh@gmail.com._
 
 ## GitHub page's links
 
@@ -33,4 +33,4 @@ _Contact Sandra Castaneda - sancastans@gmail.com or Kaveh Saleminejad - lcaveh@g
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018 **_Sandra Castaneda and Kaveh Saleminejad_**
+Copyright (c) 2018 **_James Cho and Kaveh Saleminejad_**

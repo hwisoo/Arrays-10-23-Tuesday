@@ -11,10 +11,11 @@ $(document).ready(function() {
     var newArray = array.toString();
     var newReversed = reversed.toString();
 
+    if(str){
     if(newArray === newReversed){
       palindrome = true;
     }
-    
+  }
     if(palindrome === true){
       msg = "Your word is a palindrome."
     } else {
@@ -23,7 +24,7 @@ $(document).ready(function() {
 
 
    
-    $("#result").html("<p>"+msg+"</p>");
+    $("#result").html("<h2>"+msg+"</h2>");
     
 
   });
