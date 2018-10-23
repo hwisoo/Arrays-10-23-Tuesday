@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>Check all of the warning signs that apply to you: </p>
+          <input type="checkbox" name="warning-signs" value="sleep"> Loss of Sleep<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling Overwhelmed<br>
+          <input type="checkbox" name="warning-signs" value="hope">Feeling Hopeless<br>
+          <input type="checkbox" name="warning-signs" value="enjoy">Don't Enjoy Things You Used To<br>
+          <input type="checkbox" name="warning-signs" value="mood">Mood Swings<br>
+          <input type="checkbox" name="warning-signs" value="anger">Easily Angered<br>
+          <input type="checkbox" name="warning-signs" value="focus">Cannot Focus<br>
+          <input type="checkbox" name="warning-signs" value="energy">Lack of Energy<br>
+        </div>
+        <div class="form-group">
+          <p>Check all of the health symptoms that apply to you:  </p>
+          <input type="checkbox" name="health-symptoms" value="anixiety">Anxiety<br>
+          <input type="checkbox" name="health-symptoms" value="depression">Depression<br>
+          <input type="checkbox" name="health-symptoms" value="bipolar">Bipolar Disorder<br>
+          <input type="checkbox" name="health-symptoms" value="eating">Eating Disorder<br>
+          <input type="checkbox" name="health-symptoms" value="insomnia">Insomnia<br>
+        </div>  
+        <div class="form-group">
+          <p>Check all of the coping methods that you are using: </p>
+          <input type="checkbox" name="coping-methods" value="meditation">Meditation<br>
+          <input type="checkbox" name="coping-methods" value="yoga">Yoga<br>
+          <input type="checkbox" name="coping-methods" value="music">Music Therapy<br>
+          <input type="checkbox" name="coping-methods" value="pet">Spending time with your dog/cat<br>
+          <input type="checkbox" name="coping-methods" value="friends">Spending time with your friends<br>
+          <input type="checkbox" name="coping-methods" value="therapist">See a Therapist<br>
+
+        </div>  
+         
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div class="result">
+        <span id="response1">
+          <p><b>Good job! You are coping with stress well!</b></p>
+        </span>
+        <br>
+        <span id="response2">
+          <p><b>You are stressed out! Please seek professional help!</b></p>
+        </span>
+        <br>
+        <span id="response3">
+          <p><b>You have mild stress. Use your coping methods to destress.</b></p>
+        </span>
+    </div>
+  </body>
+</html>
